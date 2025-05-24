@@ -21,7 +21,7 @@ export default function CategoryWrapper() {
             setLoading(false);
         })
     },[]);
-    console.log(categories);
+    // console.log(categories);
 
     if (loading) {
         return <p>Loading...</p>
